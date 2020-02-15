@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <!-- <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script> -->
+    <link rel="stylesheet" href="style.css">
+    <title>My Wesbite</title>
+</head>
+<body>
+<!--Start Header--> 
+ <header>
+   <div class="container">
+       <div class="row">
+            <div class="brand-name">
+                <a href="" class="logo">BHANU PRAKASH</a>
+            </div>
+            <div class="nav-bar">
+                <ul>
+                    <li><a href="Home" class="active">Home</a></li>
+                    <li><a href="About">About</a></li>
+                    <li><a href="Services">Services</a></li>
+                    <li><a href="Blog">Blog</a></li>
+                    <li><a href="Contact">Contact Us</a></li>
+                </ul>
+            </div>
+       </div>
+   </div>
+ </header>
+ <!--End Header--> 
+ <!--Start home-->
+ <section class="home">
+     <div class="container">
+         <div class="row full-screen">
+             <div class="home-content">
+                <div class="block">
+                 <h6>Hello My Name is</h6>
+                 <h1>Bhanu Prakash</h1>
+                 <h3>Web Developer</h3>
+                    <div class="cv-btn">
+                        <a href="#">Download CV</a>
+                    </div>
+                </div>
+             </div>
+         </div>
+
+     </div>
+ </section>
+ <!--Start End-->
+ <!--Start About Me-->
+ <section class="about-me">
+     <div class="container">
+         <div class="row">
+             <div class="section-title">
+                 <h1>ABOUT ME</h1>
+                 <p class="small">INFORMATION ABOUT ME</p>
+             </div>
+         </div>
+     </div>
+</section>
+     <div class="container">
+         <div class="row">
+             <div class="col-md-4">
+                 <img src="D:\Projects\images\about-me.jpeg" alt="about-me">
+             </div>
+            
+            <div class="col-md-6" style="margin-left: 10%;font-size: 14px;text-align: start;color: black;">
+                <h2>Hi I am a UI Developer in itsbhp Organization</h2>
+                <p>Contact me in case if you need any assistance.
+                    My email: c.bhanu12p@gmail.com
+                </p>
+
+             </div>
+         </div> 
+     </div>
+
+</body>
+</html>
