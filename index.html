@@ -9,7 +9,178 @@
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script> -->
     <link rel="stylesheet" href="style.css">
     <title>My Wesbite</title>
+    <style>
+        * {
+    box-sizing: border-box;
+    margin: 0;
+}
+body{
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.container{
+    max-width: 1140px;
+    margin: auto;
+}
+.row{
+    display: flex;
+    flex-wrap: wrap;
+}
+header{
+    position:absolute;  
+    left: 0;
+    right: 0;
+    border-bottom: 1px solid #422940;
+    padding: 0px 15px;
+    z-index: 30;
+}
+header .row{
+    justify-content: space-between;
+    align-items: center;
+}
+header .brand-name a{
+    text-decoration: none;
+    font-size: 15px;
+    color: #ffffff;
+    font-size: 22px;
+    position: relative;
+    font-weight: 600;
+}
+
+header .nav-bar ul{
+   list-style-type: none;
+   margin: 0;
+   padding: 0;
+}
+header .nav-bar ul li{
+    display: inline-block;
+    margin-left: 35px;
+} 
+header .nav-bar ul li a{
+    text-decoration: none;
+    color: #ffffff;
+    font-size: 15px;
+    line-height: 72px;
+    font-weight: 600;
+    position: relative;
+    display: block;
+}
+header .nav-bar ul li a:hover::before{
+    content: '';
+    background-color: #ffffff;
+    height: 3px;
+    position: absolute;
+    width: 0%;
+    right: 0;
+    bottom: -1px;
+    transition: all .5s ease;
+}
+header .nav-bar ul li a:hover::before{
+    width: 100%;
+    left: 0;
+}
+
+.home{
+    min-height: 100vh;
+    background-image: url("D:/Projects/images/hero/crop2.jfif");    
+    background-size: cover;
+    background-position: center;
+    padding: 15px;
+}
+.home .full-screen{
+    min-height: 100vh;
+}
+.home .home-content{
+    flex: 0 0 100%; 
+    display: flex;
+    flex-wrap: wrap;
+    max-width: 100%;
+    align-items: center;
+}
+.home .home-content .block{
+  max-width: 75%;
+  flex: 0 0 75%;
+  padding-left: 35px;
+  border-left: 5px solid #ffffff;
+}
+.home .home-content .block h6{
+    color: #ffffff;
+    font-size: 18px;
+    margin: 0;
+    padding: 0;
+    font-weight: 500;
+}
+.home .home-content .block h1{
+    color: #ffffff;
+    font-size: 70px;
+    font-weight: 600;
+    margin: 0;
+    padding: 0;
+}
+.home .home-content .block h3{
+    color: #ffffff;
+    font-size: 25px;
+    font-weight: 500;
+    margin: 0;
+    padding: 0;
+}
+.home .home-content .block .cv-btn{
+    padding-top: 20px;
+}
+.home .home-content .block .cv-btn a{
+    border-radius: 4px;
+    color: #ffffff;
+    border: 1px solid #ffffff;
+    font-size: 14px;
+    text-decoration: none;
+    padding: 12px 25px;
+    text-transform: uppercase;
+    display: inline-block;
+    font-weight: 500;
+    transition: all .5s ease;
+    background-color: transparent;
+}
+.home .home-content .block .cv-btn a:hover{
+    color: #000000;
+    background-color: #ffffff;
+}
+
+/* About Me */
+.about-me {
+    padding: 100px 25px;
+}
+.about-me .section-title{
+    flex: 0 0 100%;
+    max-width: 100%;
+}
+.about-me .section-title h1{
+    display: inline-block;
+    font-size: 35px;
+    font-weight: 700;
+    margin: 0 0 10px;
+    color: #000000;
+    position: relative;
+    padding-bottom: 5px;
+}
+.about-me .section-title h1::before{
+    content: '';
+    left: 0;
+    height: 2px;
+    right: 30%;
+    background-color: #febd01;
+    bottom: 0px;
+    position: absolute;
+}
+.about-me .section-title p.small{
+    display: block;
+    font-size: 14px;
+    color: #838383;
+    font-weight: 400;
+}
+
+    </style>
 </head>
+ 
 <body>
 <!--Start Header--> 
  <header>
